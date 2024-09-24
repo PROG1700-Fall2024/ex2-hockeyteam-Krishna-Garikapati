@@ -11,13 +11,14 @@
 # simple math operations
 
 def main():
-    # YOUR CODE STARTS HERE, each line must be indented (one tab)
-
-
-      print
-
-
-
+  # YOUR CODE STARTS HERE, each line must be indented (one tab)
+  HokeyTeamName=input("Please enter hockey team name:")
+  Wins=int(input("Please enter number of times team won:"))
+  Losses=int(input("Please enter number of times team lost:"))
+  ratio=(Wins/Losses)
+  percentage=float((Wins/(Wins+Losses))*100)
+  Rounded=round(percentage,4)
+  print("The " + HokeyTeamName+" win-loss ratio is " + str(Rounded) + " and win percentage is " + str(Rounded)+"%")
 
 
     # YOUR CODE ENDS HERE
